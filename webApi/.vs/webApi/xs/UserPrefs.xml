@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{300530D8-C2B1-40DA-B854-AE3220B3EEF6}|Default">
+  <MonoDevelop.Ide.ItemProperties.webApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="webApi/Startup.cs">
+    <Files>
+      <File FileName="webApi/Controllers/ProductoController.cs" Line="21" Column="1" />
+      <File FileName="Repositorio/ProductoDAO.cs" />
+      <File FileName="Entidad/Producto.cs" />
+      <File FileName="webApi/Startup.cs" Line="15" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="webApi" expanded="True">
+            <Node name="Entidad" expanded="True" />
+            <Node name="Repositorio" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="webApi" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/julioramirez/Documents/Api/webApi/webApi/webApi.csproj": {}
+  },
+  "projects": {
+    "/Users/julioramirez/Documents/Api/webApi/Entidad/Entidad.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julioramirez/Documents/Api/webApi/Entidad/Entidad.csproj",
+        "projectName": "Entidad",
+        "projectPath": "/Users/julioramirez/Documents/Api/webApi/Entidad/Entidad.csproj",
+        "packagesPath": "/Users/julioramirez/.nuget/packages/",
+        "outputPath": "/Users/julioramirez/Documents/Api/webApi/Entidad/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/julioramirez/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/julioramirez/Documents/Api/webApi/Repositorio/Repositorio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julioramirez/Documents/Api/webApi/Repositorio/Repositorio.csproj",
+        "projectName": "Repositorio",
+        "projectPath": "/Users/julioramirez/Documents/Api/webApi/Repositorio/Repositorio.csproj",
+        "packagesPath": "/Users/julioramirez/.nuget/packages/",
+        "outputPath": "/Users/julioramirez/Documents/Api/webApi/Repositorio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/julioramirez/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/julioramirez/Documents/Api/webApi/Entidad/Entidad.csproj": {
+                "projectPath": "/Users/julioramirez/Documents/Api/webApi/Entidad/Entidad.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/julioramirez/Documents/Api/webApi/webApi/webApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/julioramirez/Documents/Api/webApi/webApi/webApi.csproj",
+        "projectName": "webApi",
+        "projectPath": "/Users/julioramirez/Documents/Api/webApi/webApi/webApi.csproj",
+        "packagesPath": "/Users/julioramirez/.nuget/packages/",
+        "outputPath": "/Users/julioramirez/Documents/Api/webApi/webApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/julioramirez/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/julioramirez/Documents/Api/webApi/Entidad/Entidad.csproj": {
+                "projectPath": "/Users/julioramirez/Documents/Api/webApi/Entidad/Entidad.csproj"
+              },
+              "/Users/julioramirez/Documents/Api/webApi/Repositorio/Repositorio.csproj": {
+                "projectPath": "/Users/julioramirez/Documents/Api/webApi/Repositorio/Repositorio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+create database ProyectoSatira;
+use ProyectoSatira;
+
+
+create table Producto(
+    Codigo INT PRIMARY KEY IDENTITY(1, 1),
+    Nombre VARCHAR (25),
+    Descripcion VARCHAR (50),
+    Marca VARCHAR (30)
+);
+GO
+
+SELECT * FROM Producto;
+
+
+CREATE PROCEDURE St_InsertarDatos
+@Codigo int,
+@Nombre varchar(20),
+@Descripcion varchar(20),
+@Marca varchar(20)
+AS
+BEGIN
+INSERT INTO Producto VALUES(@Codigo,@Nombre,@Descripcion,@Marca)
+END;
+GO
+
+
+CREATE PROCEDURE St_ActualizarProducto
+@Codigo int,
+@Nombre varchar(20),
+@Descripcion varchar(20),
+@Marca varchar(20)
+AS
+BEGIN
+UPDATE Producto SET Nombre=@Nombre,Descripcion=@Descripcion,Marca=@Marca
+WHERE Codigo=@Codigo
+END
+GO
+
+
+CREATE PROCEDURE SpEliminarProducto
+@Codigo INT
+AS
+DELETE FROM Producto WHERE Codigo=@Codigo
+GO
+
+
+CREATE PROCEDURE Sp_BuscarId
+
+@Codigo INT
+AS
+BEGIN
+    SELECT *
+    FROM Producto
+    WHERE Codigo = @Codigo
+
+END
+GO
+

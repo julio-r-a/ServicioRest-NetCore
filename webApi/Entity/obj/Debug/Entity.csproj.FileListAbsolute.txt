@@ -1,0 +1,2 @@
+/Users/julioramirez/Projects/webApi/Entity/obj/Debug/Entity.csproj.AssemblyReference.cache
+/Users/julioramirez/Projects/webApi/Entity/obj/Debug/Entity.csproj.CoreCompileInputs.cache
